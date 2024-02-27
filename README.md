@@ -28,6 +28,17 @@ To answer these questions, I have found and used 8 datasets and compiled 1 datas
 | 8      | API    | WB                        | Interactive/Static Plots, Analysis | Global             |
 | 9      | PDF    | Commonwealth Access Hub    | Word Cloud                         | Commonwealth       |
 
+Py file descriptions
+
+I divided my coding into 5 different py files each with different objectives:
+
+| Name                    | Description of the Task |
+|-------------------------|-------------------------|
+| data_wrangling.py       | As the first part of the project, I have written a py file to open, load, and prepare the datasets for the next steps.                                               | 
+| plotting.py             | I used the cleaned and prepared datasets from data_wrangling.py and plotted interactive and static plots to download and present through Shiny interface I've built. | 
+| text_processing.py      | I've parsed a pdf file from Commonwealth Access Hub to use later for creating word clouds and finding insights on the discourse revolving around climate finance.    | 
+| analysis.py             | Here I investigate the linkages between prosperity, adaptation, historical responsibilities, and status quo of countries as emitters with basic panel data regression.|
+| app.py                  | Lastly, I have built a Shiny web platform to publish my interactive plots with users.                                                                                 |
 
 Data Availability in Climate Finance & Word Clouds
 
